@@ -1,0 +1,140 @@
+/* *{
+    border: 1px solid black;
+} */
+
+body {
+    /* font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5; */
+
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 36px;
+    background-color: #a9508b;
+    color: #ffffff;
+}
+
+/* header */
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    min-height: 70px;
+    border-bottom: 3px solid #a9508b;
+
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header .highlight,
+header .current a {
+    color: #a9508b;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url("./images/showcase.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin: 100px 0 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Newsletter */
+
+#newsletter {
+    padding: 15px 0;
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    width: 250px;
+    height: 25px;
+    font-family: cursive;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxes .box {
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    margin: 20px 0;
+    border-color: cornsilk;
+    text-align-last: center;
+    border-top: 2px solid #a9508b;
+    border-bottom: 2px solid #a9508b;
+}
